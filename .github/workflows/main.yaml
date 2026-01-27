@@ -89,7 +89,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'moviecards-velasco-pre'
-          slot-name: 'Staging'
+          slot-name: 'Production'
           package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_68C4AAF4C9404874B230FDD2A476A693 }}
 
